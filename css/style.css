@@ -11,6 +11,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	width: 100vw;
 }
 
 body:after {
@@ -85,4 +87,10 @@ button.btn.btn-default.toggle-complete-btn {
 
 button.btn.btn-default.toggle-complete-btn.btn-success {
 	background: #3c763d;
+}
+
+@media only screen and (max-width: 600px) {
+	.app-container {
+		width: 90%;
+	}
 }
